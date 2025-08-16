@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    const token = "YOUR_TELEGRAM_BOT_TOKEN";  // 🔑 توکن ربات
-    const chatId = "YOUR_CHAT_ID";            // 🆔 آیدی شما یا گروه
+    const token = "8336749061:AAFMJHBvzGpiK4AElLs6VRynpyHWmIWNqs4";  // 🔑 توکن ربات
+    const chatId = "-4894053122";            // 🆔 آیدی شما یا گروه
 
     const text = req.body.text || "بدون پیام";
 
